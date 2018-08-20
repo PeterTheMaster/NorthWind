@@ -66,11 +66,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Prueba01Modelo.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Prueba01Modelo.edmx</DependentUpon>
-    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -139,13 +134,6 @@
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <EntityDeploy Include="Prueba01Modelo.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Prueba01Modelo.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Prueba01Modelo.edmx.diagram">
-      <DependentUpon>Prueba01Modelo.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
